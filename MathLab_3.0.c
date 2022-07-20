@@ -7370,7 +7370,6 @@ void calcdfdx(expn en, varlist* pvl) {
 	}
 	replaceexpn(en, endif);
 }
-#include "Lib.h"
 void calcspace(expn en, varlist* pvl) {
 
 	en->prop = 2;
