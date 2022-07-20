@@ -8,6 +8,7 @@ It is written all by myself without using existing libraries and in console C on
 
 ## Download Executable Files
 **DROPBOX |** [MathLab for Windows & User's Guide](https://www.dropbox.com/sh/s0k7sffsucz3990/AADoieglSGqV1hkw2jNwtDbna?dl=0)
+ (The Chinese version of the user's guide is written for version 2.7.3. The English version is for version 2.5.)
 
 ## Make your own portable executable files with MathLab
 - **Step 1 |** Write and save your MathLab code to a text file.
