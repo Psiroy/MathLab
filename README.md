@@ -25,11 +25,11 @@ This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAl
 For commercial use, please contact me.
 
 ## Latest Update in Version 3.0.20210630
-Remove dead loop check. Now the dead loop will be stuck forever, and calculations with large exponential operations may return a wrong result.
-Found the double decimal point bug, which means two decimal points in a number will cause the program to terminate.
-New Grammar Feature: Space Operator. (developing)
-New Grammar Feature: Call function by [[String_of_function_name]]([parameters])
-New Grammar Feature: Run calculations for integer n times by [[interger_n]]([expression])
+- Remove dead loop check. Now the dead loop will be stuck forever, and calculations with large exponential operations may return a wrong result.
+- Found the double decimal point bug, which means two decimal points in a number will cause the program to terminate.
+- New Grammar Feature: Space Operator. (developing)
+- New Grammar Feature: Call function by [[String_of_function_name]]([parameters])
+- New Grammar Feature: Run calculations for integer n times by [[interger_n]]([expression])
 ```
 >a=x
 x
