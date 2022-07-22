@@ -91,7 +91,7 @@ w,-z,y,-x
 >isprime(2017)
 1
 ```
-**Example 5.** Define external differential operator d in the homogeneous space of Λ R^3. Compute d(x*z+e^sin(y)*z+ln(x)*y), d(x*e^y*z^2*(dy+dz)) and d(1/z*dxΛdy).
+**Example 5.** Define the exterior derivative operator d in the homogeneous space of Λ R^3. Compute d(x*z+e^sin(y)*z+ln(x)*y), d(x*e^y*z^2*(dy+dz)) and d(1/z*dxΛdy).
 ```
 >d(f)=[>_temp=(d(d(f)/ddxdy)/dz+d(d(f)/ddydz)/dx+d(d(f)/ddzdx)/dy)*dxdydz;_temp?0\_temp=(d(d(f)/ddy)/dx-d(d(f)/ddx)/dy)*dxdy+(d(d(f)/ddz)/dy-d(d(f)/ddy)/dz)*dydz+(d(d(f)/ddx)/dz-d(d(f)/ddz)/dx)*dzdx;_temp?0\_temp=d(f)/dx*dx+d(f)/dy*dy+d(f)/dz*dz;_temp;]; 
 >d(x*z+e^sin(y)*z+ln(x)*y)
